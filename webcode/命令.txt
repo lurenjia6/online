@@ -1,0 +1,38 @@
+edu-admin-project  前端后台页面
+edu-online-project  前端前台页面
+
+
+#安装cnpm
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+#经过下面的配置，以后所有的 npm install 都会经过淘宝的镜像地址下载
+npm config set registry https://registry.npm.taobao.org 
+
+cnpm install node-sass@latest
+
+#启动项目
+npm run dev
+
+#更新包（更新到最新版本）
+npm update 包名
+#全局更新
+npm update -g 包名
+
+#卸载包
+npm uninstall 包名
+#全局卸载
+npm uninstall -g 包名
+
+#安装node-sass
+npm install node-sass --save-dev
+
+
+#npm管理的项目在备份和传输的时候一般不携带node_modules文件夹
+npm install #根据package.json中的配置下载依赖，初始化项目
+
+
+#经过下面的配置，以后所有的 npm install 都会经过淘宝的镜像地址下载
+npm config set registry https://registry.npm.taobao.org 
+
+#查看npm配置信息
+npm config list
